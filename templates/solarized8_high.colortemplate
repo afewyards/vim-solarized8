@@ -519,6 +519,29 @@ CursorIM             none              fg
 # See `:help window-toolbar`
 ToolbarLine          none              base02
 ToolbarButton        base1             base02            bold
+
+jsxComponentName     yellow            none              g=italic                                                                         
+jsxAttrib            base01            none                                                                                               
+jsxEqual             yellow            none                                                                                               
+javascriptOps        yellow            none                                                                                               
+javascriptOpSymbols  yellow            none                                                                                               
+javascriptBrackets   base3             none                                                                                               
+javascriptBraces     base3             none                                                                                               
+javascriptParens     base3             none                                                                                               
+javascriptReserved   base3             none              bold                                                                             
+javascriptFuncKeyword   base3          none              bold                                                                             
+javascriptVariable   base3             none              bold                                                                             
+javascriptImport     yellow            none              g=italic                                                                         
+javascriptExport     yellow            none              g=italic                                                                         
+javascriptIdentifierNamew blue            none                                                                                            
+                                                                                                                                          
+# }}}                                                                                                                                     
+                                                                                                                                          
+verbatim                                                                                                                                  
+hi jsxComponentName cterm=italic                                                                                                          
+hi javascriptImport cterm=italic                                                                                                          
+hi javascriptExport cterm=italic                                                                                                          
+endverbatim
 # }}}
 
 # Additional highlight groups {{{
